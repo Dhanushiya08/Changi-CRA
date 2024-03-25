@@ -1,0 +1,43 @@
+.signin-hearder {
+  font-size: 48px;
+  color: #0e1015;
+  font-weight: 700;
+}
+.signin-sub-hearder {
+  font-size: 16px;
+  color: theme("colors.signintext");
+  font-weight: 400;
+}
+.signin-button {
+  width: 100%;
+  border-radius: 0px;
+}
+.ant-input {
+  border-radius: 0px !important;
+}
+.sign-in-sign-up-link {
+  color: theme("colors.violet");
+  padding-left: 0.5rem;
+}
+.signin-form.ant-form-item .ant-form-item-label > label {
+  color: theme("colors.signintext") !important;
+}
+.ant-form-item .ant-form-item-label > label {
+  color: theme("colors.signintext") !important;
+}
+.login-img {
+  height: 49rem;
+}
+.login-background {
+  background: #0e1015;
+}
+.ant-form-item
+  .ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::before {
+  content: "";
+}
+.ant-input-affix-wrapper {
+  border-radius: 0px;
+}

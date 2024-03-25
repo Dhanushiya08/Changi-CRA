@@ -1,0 +1,27 @@
+.chat-search-input {
+  .ant-input-affix-wrapper {
+    border-radius: 0 !important;
+  }
+  .ant-input-affix-wrapper:hover {
+    border: 0px solid #e6e2df !important;
+  }
+  .ant-btn {
+    border-radius: 0 !important;
+  }
+}
+.ant-popover {
+  width: 15rem !important;
+}
+.qus-icon {
+  font-size: 20px;
+  color: theme("colors.violet");
+  cursor: pointer;
+}
+.ans-icon {
+  font-size: 20px;
+  color: theme("colors.positivegreen");
+  cursor: pointer;
+}
+.search-select.ant-select {
+  min-width: 12rem;
+}

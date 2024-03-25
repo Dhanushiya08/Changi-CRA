@@ -1,0 +1,33 @@
+.documentUpload {
+  .ant-select {
+    height: 38px;
+    border: 1px solid #9ca3af;
+  }
+  .ant-select-selector {
+    border-radius: 0 !important;
+  }
+  .ant-select-focused .ant-select-selector,
+  .ant-select-selector:focus,
+  .ant-select-selector:hover,
+  .ant-select-open .ant-select-selector {
+    border-color: #9ca3af !important;
+    box-shadow: none !important;
+  }
+  .ant-table-thead {
+    .ant-table-cell {
+      background: #f4f4f4;
+      border-radius: 0px !important;
+    }
+  }
+  .ant-table-cell {
+    font-size: 13px !important;
+  }
+}
+
+.doc-table a:hover {
+  color: #000;
+}
+.ant-btn-primary {
+  background: theme("colors.violet") !important;
+  color: #fff;
+}

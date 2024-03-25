@@ -1,0 +1,86 @@
+.add-icon.ant-btn-default {
+  border: 1px solid theme("colors.violet") !important;
+  background-color: theme("colors.plainviolet") !important;
+  border-radius: 0px;
+  color: theme("colors.violet");
+  cursor: pointer;
+}
+.user-manage-table {
+  overflow-x: auto;
+  .user-manage-table.ant-table-wrapper .ant-table-thead > tr > th {
+    background: theme("colors.tableheadgray") !important;
+    min-height: 3rem;
+    border: none;
+    text-align: center !important;
+    font-size: 0.97rem !important;
+  }
+}
+.add-user-icon.ant-btn-default {
+  background-color: theme("colors.violet");
+  color: theme("colors.white");
+  border-radius: 0px;
+  cursor: pointer;
+}
+.add-cancel-icon.ant-btn-default {
+  border: 1px solid theme("colors.violet") !important;
+  border-radius: 0px;
+  color: theme("colors.violet");
+  cursor: pointer;
+}
+.reset-button.ant-btn-default {
+  border: 1px solid theme("colors.graybutton") !important;
+  border-radius: 0px;
+  background-color: theme("colors.plaingraybutton") !important;
+  cursor: pointer;
+}
+.user-type-select.ant-select-single .ant-select-selector {
+  border-radius: 0px;
+}
+
+.ant-pagination .ant-pagination-item-active {
+  border: 1px solid theme("colors.violet") !important;
+  background-color: theme("colors.plainviolet") !important;
+  color: theme("colors.violet") !important;
+  .ant-pagination .ant-pagination-item-active a {
+    color: theme("colors.violet") !important;
+  }
+}
+.reset-add {
+  color: theme("colors.positivegreen") !important;
+  font-size: 20px;
+  padding: 2px 8px;
+}
+.reset-edit {
+  color: theme("colors.violet") !important;
+  font-size: 20px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+.reset-delete {
+  color: theme("colors.deletebutton") !important;
+  font-size: 20px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+.ant-btn-primary {
+  background: theme("colors.violet") !important;
+  color: #fff;
+}
+.ant-form-item .ant-form-item-label {
+  text-align: start;
+}
+.ant-form-item .ant-form-item-label > label::after {
+  content: "";
+}
+.admin-add-form.ant-modal .ant-modal-title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+.reset-password-form.ant-form-item {
+  width: 100% !important;
+}
+.reset-button.ant-btn {
+  border-radius: 0 !important;
+  color: theme("colors.violet") !important;
+  border: 1px solid theme("colors.violet") !important;
+}
