@@ -63,8 +63,8 @@ const UploadFiles: React.FC<UploadFilesProps> = ({ handleCancel }) => {
   const handleUpload = async () => {
     setUploading(true);
     let selectedFile = fileList[0];
-    // const S3_BUCKET = "changi-upload-file";
-    const S3_BUCKET = "changi-test";
+    const S3_BUCKET = "changi-upload-file";
+    // const S3_BUCKET = "changi-test";
 
     // Prepare upload parameters
     const params = {
